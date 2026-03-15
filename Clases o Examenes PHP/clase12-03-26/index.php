@@ -59,7 +59,7 @@
         <input type="text" name="nombre" required><br>
 
         <label>Salario Base</label>
-        <input type="text" name="number" required><br>
+        <input type="number" name="salarioBase" required><br>
 
         <label>Tipo de Empleado:</label>
         <select name="tipo" required>
