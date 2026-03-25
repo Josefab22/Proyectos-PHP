@@ -1,0 +1,59 @@
+/*Estilos globales para toda la página*/
+* {
+    box-sizing: border-box;
+}
+/*Estilos para el cuerpo de la página*/
+body {
+    font-family: Arial, sans-serif;
+    background-color:  #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+/*Estilos para el título*/
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+/*Estilos para el contenedor del formulario*/
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    width: 300px;
+}
+/*Estilos para el formulario*/
+form {
+    display: flex;
+    flex-direction: column;
+}
+/*Estilos para los campos de entrada y el selector*/
+input[type="number"], select {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    font-size: 16px;
+}
+/*Estilos para el botón de envío*/  
+input[type="submit"] {
+    background-color: #3549dc;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+/*Estilos para el botón de envío al pasar el mouse*/
+input[type="submit"]:hover {
+    background-color: #000000;
+}

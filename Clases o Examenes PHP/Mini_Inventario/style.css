@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+h1{
+    margin-bottom: 20px;
+    color: rgb(175, 181, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+}
+h2{
+    margin-bottom: 15px;
+    color: rgb(181, 136, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    background-color: #555;
+    padding: 10px;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+main{
+    padding: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td{
+    border: 1px solid #ddd;
+}
+th, td{
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color: #f2f2f2;
+}
+form{
+    margin-top: 20px;
+}
+form input, form select{
+    padding: 8px;
+    margin: 5px 0;
+    width: 100%;
+}
+form button{
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #555;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin: 30px;
+    padding: 50px;
+    width: 100%;
+}
